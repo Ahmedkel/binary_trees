@@ -107,6 +107,8 @@ This function is used only for visualization purposes. You don’t have to push 
 
 ## Tasks
 
+### 0\. New node
+
 Write a function that creates a binary tree node
 
 -   Prototype: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);`
@@ -154,6 +156,8 @@ alex@/tmp/binary_trees$
 
 -   GitHub repository: `binary_trees`
 -   File: `0-binary_tree_node.c`
+
+### 1\. Insert left
 
 Write a function that inserts a node as the left-child of another node
 
@@ -257,6 +261,8 @@ alex@/tmp/binary_trees$
 -   GitHub repository: `binary_trees`
 -   File: `2-binary_tree_insert_right.c`
 
+### 3\. Delete
+
 Write a function that deletes an entire binary tree
 
 -   Prototype: `void binary_tree_delete(binary_tree_t *tree);`
@@ -314,6 +320,8 @@ alex@/tmp/binary_trees$
 -   GitHub repository: `binary_trees`
 -   File: `3-binary_tree_delete.c`
 
+### 4\. Is leaf
+
 Write a function that checks if a node is a leaf
 
 -   Prototype: `int binary_tree_is_leaf(const binary_tree_t *node);`
@@ -367,6 +375,8 @@ alex@/tmp/binary_trees$
 
 -   GitHub repository: `binary_trees`
 -   File: `4-binary_tree_is_leaf.c`
+
+### 5\. Is root
 
 Write a function that checks if a given node is a root
 
