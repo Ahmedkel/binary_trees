@@ -570,8 +570,6 @@ alex@/tmp/binary_trees$
 
 ### 8\. Post-order traversal
 
-mandatory
-
 Write a function that goes through a binary tree using post-order traversal
 
 -   Prototype: `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));`
