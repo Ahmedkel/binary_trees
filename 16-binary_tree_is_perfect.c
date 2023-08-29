@@ -12,8 +12,8 @@ int depth_helper(const binary_tree_t *tree);
  */
 int result(int depth, const binary_tree_t *tree, int level)
 {
-	if (tree == NULL)
-		return (1);
+	if (!tree)
+		return (0);
 
 	if (tree->left == NULL && tree->right == NULL)
 	{
