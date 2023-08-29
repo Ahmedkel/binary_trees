@@ -13,10 +13,10 @@ int is_full(const binary_tree_t *tree)
 
 	if (tree)
 	{
-		if ((!tree->left && tree->right) || (tree->left && !tree->right))
-			return (0);
 		full = is_full(tree->left);
 		full = is_full(tree->right);
+		if ((!tree->left && tree->right) || (tree->left && !tree->right))
+			return (0);
 	}
 	return (full);
 }
