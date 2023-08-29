@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * full - is it full
+ * is_full - is it full
  *
  * @tree: the tree to check
  *
@@ -30,7 +30,7 @@ int is_full(const binary_tree_t *tree)
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	int full = 1;
+	int full = 0;
 
 	if (tree)
 		full = is_full(tree);
